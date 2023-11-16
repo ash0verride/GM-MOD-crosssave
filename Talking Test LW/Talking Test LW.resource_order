@@ -1,0 +1,7 @@
+{
+  "FolderOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_gm_background","order":1,"path":"sprites/spr_gm_background/spr_gm_background.yy",},
+    {"name":"obj_display","order":1,"path":"objects/obj_display/obj_display.yy",},
+  ],
+}

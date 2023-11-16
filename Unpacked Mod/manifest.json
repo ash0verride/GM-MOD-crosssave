@@ -1,0 +1,70 @@
+{
+    "name": "cross save COMBINED",
+    "description": "Live Wallpaper and Game Strip cross saving",
+    "developer":
+    {
+        "name": "GameMaker"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "payload":
+        {
+         "game_strips": {
+            "config": "gs/runner.json",
+            "default": "default_strip",
+            "path": "gs/index.html",
+            "runner": {
+               "download_url": {
+                  "mac": "https://play.gxc.gg/gm/runner/2023-8-2-152/mac/gm-runner-2023.8.2.152-mac-vm.zip",
+                  "wasm": "https://play.gxc.gg/gm/runner/2023-8-2-152/wasm/gm-runner-2023.8.2.152-wasm-vm.zip",
+                  "win": "https://play.gxc.gg/gm/runner/2023-8-2-152/win/Runner.exe"
+               },
+               "version": "2023.8.2.152"
+            },
+            "strips": {
+               "default_strip": {
+                  "height": 120,
+                  "name": "cross save GS",
+                  "path": "gs/index.html",
+                  "width": 940
+               }
+            },
+            "unx": "game.unx"
+         },
+             "wallpaper": [ {
+               "dark": {
+                  "groups": [ {
+                     "layers": [ {
+                        "config": "lw/runner.json",
+                        "resource": "lw/index.html",
+                        "runner": {
+                           "download_url": {
+                              "mac": "https://play.gxc.gg/gm/runner/2023-8-2-152/mac/gm-runner-2023.8.2.152-mac-vm.zip",
+                              "wasm": "https://play.gxc.gg/gm/runner/2023-8-2-152/wasm/gm-runner-2023.8.2.152-wasm-vm.zip",
+                              "win": "https://play.gxc.gg/gm/runner/2023-8-2-152/win/Runner.exe"
+                           },
+                           "version": "2023.8.2.152"
+                        },
+                        "type": "live",
+                        "unx": "lw/game.unx"
+                     } ]
+                  } ],
+                  "preview": {
+                     "176x124": "lw/lw_preview_placeholder_176x124.png"
+                  },
+                  "text_color": "#ffffff",
+                  "text_shadow": "#757575"
+               },
+               "id": "0",
+               "name": "cross save LW"
+            } ]
+        },
+        "schema_version": 1
+    },
+    "version": "2.0"
+}

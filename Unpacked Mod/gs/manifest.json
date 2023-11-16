@@ -1,0 +1,41 @@
+{
+   "description": "-",
+   "developer": {
+      "name": "ashGameMaker"
+   },
+   "icons": {
+      "512": "icons/placeholder_512.png"
+   },
+   "key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3jxWKd+DZ5Vu3TtsATsUEyF7pIC3Bb8Vof62HhFp4lGodRrFp6kXmdd6/R/gRd8MgvLCpDMLC7k3CCAOEKoxVRjntAtMTe1iDN+HGi0ISlgxjbYgoBXSSwEeOjlutxRO1oQCKrbGhffnP1UmSeTMBfqfAQN68sx3rLM2rS0XxWvTwpWAXezxSDbVT2SvLxTv33P1u+FfOElGQLcEIAIhduQ+o2NTFNpACxPoGg/za7Fd8SFpmxEhhf2tG0bOSyDATRlhrzLkBiZa7ihj+Sk8EzDL/jAzPcLMTfRKfGHVje8bMlin+nBU5LOTQeffJtz7H9Y1+LMsN3dRvbfUINU3m4bsBJ61NnHa6/EHqsLS+Y0f7V07Rb5j0V1yo+fjdCEaBBOCfyzdbf8ymdSw6FQ7av2ZqBSV0VCQY5VMAiNkPSbZ4cCku+JyHAe/nX/mASttb6SEeoVWOsPyiBwzOe6Sp6JVpiUZHdtaIKetIRtphemltseLjp0PYMdUQn5EiF26Vh8q8XX9XUPKRY0HdOVvSOsma8GgHdpZPF1IBegQTglaD/z69UFy5NjYOIhUyiIriOHLPGAHwXUuYPwOmwXY4CDrGEnnCZCPjFAzRsXynVUV3xLrA4k2obWno5Q0vX6XcBEzjTk+SDfFFlWBM0gwZD3LJ5/Ih+dvbWKX0dgcmkcCAwEAAQ==",
+   "manifest_version": 3,
+   "mod": {
+      "payload": {
+         "game_strips": {
+            "config": "runner.json",
+            "default": "default_strip",
+            "path": "index.html",
+            "runner": {
+               "download_url": {
+                  "mac": "https://play.gxc.gg/gm/runner/2023-1100-0-453/mac/gm-runner-2023.1100.0.453-mac-vm.zip",
+                  "wasm": "https://play.gxc.gg/gm/runner/2023-1100-0-453/wasm/gm-runner-2023.1100.0.453-wasm-vm.zip",
+                  "win": "https://play.gxc.gg/gm/runner/2023-1100-0-453/win/Runner.exe"
+               },
+               "version": "2023.1100.0.453"
+            },
+            "strips": {
+               "default_strip": {
+                  "height": 120,
+                  "name": "cross save GS",
+                  "path": "index.html",
+                  "width": 940
+               }
+            },
+            "unx": "game.unx"
+         }
+      },
+      "schema_version": 1
+   },
+   "name": "cross save GS",
+   "update_url": "https://api.gx.me/store/mods/update",
+   "version": "1.2.0"
+}

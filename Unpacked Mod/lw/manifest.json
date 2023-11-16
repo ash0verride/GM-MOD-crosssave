@@ -1,0 +1,46 @@
+{
+   "description": "-",
+   "developer": {
+      "name": "ashGameMaker"
+   },
+   "icons": {
+      "512": "icons/placeholder_512.png"
+   },
+   "key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAuaOCUjNceD460FJQRhy5mh8ClQHZ4vu871s4VUl+W/JQ4Aj1YOTlH88At6t4jdD+vr16kdaCf87ZcpGSSRBhkVZRjCWCbxLriTvKK4S247u3MEYLN6xqJsi1NaGTrkhstpvlwQcxJZODY5BSznFFmORrAqn9Q1Vbc4QzmWD94w6HKVdSouZ+z52ra5LkfZBTVY1P6+BoAOgSB4r+a5pSwry7TY8aPYtCcH+s/wbUeb7pIMXfLV8SY3DLdtoYxqsw7RCxk6Y2fjLX36bNtD+F8tE2K71n3UhitNRXNl2B3xXOQ7XdAobpMw+y7IniYEdq/RbJw9/ND+5/86UxNgkTfPJXVshlXSnucYVAAzfTLRRBsDvo3mrabny1rWzzWBOvPb+n5ceaJ/AL6pFV0izE1rf3kpUgiMuS8TdsQRmVcpQkZaLe2gNB/xc/V1FpzkUSGyzchZXH7XZKjyDoEv7LOTVR58uLyGlNnIUCAr068hCX+xIGz0L4asngv9b5rX+Wlg707apc4s/NRPw6HM6ckjT/OLqeY1AjpqMT67WN5wNjKPxexQWeBAOwZI2NZnzceMKv2kbfgws3EdyyLCTqkwLbJjp4i8wStgj5fmZTkePQCxo40XP32sRRWacTseFH3B6jBrUSf3wBMlC1IDcNpWr5naVriFb5imM7hLYKD7cCAwEAAQ==",
+   "manifest_version": 3,
+   "mod": {
+      "payload": {
+         "wallpaper": [ {
+            "dark": {
+               "groups": [ {
+                  "layers": [ {
+                     "config": "runner.json",
+                     "resource": "index.html",
+                     "runner": {
+                        "download_url": {
+                           "mac": "https://play.gxc.gg/gm/runner/2023-1100-0-453/mac/gm-runner-2023.1100.0.453-mac-vm.zip",
+                           "wasm": "https://play.gxc.gg/gm/runner/2023-1100-0-453/wasm/gm-runner-2023.1100.0.453-wasm-vm.zip",
+                           "win": "https://play.gxc.gg/gm/runner/2023-1100-0-453/win/Runner.exe"
+                        },
+                        "version": "2023.1100.0.453"
+                     },
+                     "type": "live",
+                     "unx": "game.unx"
+                  } ]
+               } ],
+               "preview": {
+                  "176x124": "lw_preview_placeholder_176x124.png"
+               },
+               "text_color": "#ffffff",
+               "text_shadow": "#757575"
+            },
+            "id": "0",
+            "name": "cross save LW"
+         } ]
+      },
+      "schema_version": 1
+   },
+   "name": "cross save LW",
+   "update_url": "https://api.gx.me/store/mods/update",
+   "version": "1.2.0"
+}
