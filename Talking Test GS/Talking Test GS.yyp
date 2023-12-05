@@ -31,9 +31,10 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.1100.0.440",
+    "IDEVersion": "2023.1100.0.450",
   },
   "resources": [
+    {"id":{"name":"obj_debug_info","path":"objects/obj_debug_info/obj_debug_info.yy",},},
     {"id":{"name":"spr_gmext_button","path":"sprites/spr_gmext_button/spr_gmext_button.yy",},},
     {"id":{"name":"obj_button_a","path":"objects/obj_button_a/obj_button_a.yy",},},
     {"id":{"name":"obj_button_d","path":"objects/obj_button_d/obj_button_d.yy",},},

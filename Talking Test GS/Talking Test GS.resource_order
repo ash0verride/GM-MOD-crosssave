@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_debug_info","order":5,"path":"objects/obj_debug_info/obj_debug_info.yy",},
     {"name":"spr_gmext_button","order":1,"path":"sprites/spr_gmext_button/spr_gmext_button.yy",},
     {"name":"obj_button_a","order":1,"path":"objects/obj_button_a/obj_button_a.yy",},
     {"name":"obj_button_d","order":4,"path":"objects/obj_button_d/obj_button_d.yy",},

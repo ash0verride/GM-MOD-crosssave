@@ -34,5 +34,5 @@ load_data = function()
 	}
 }
 
-// Synchronises the save buffer and calls the load funtion after 10 frames
-gxc_file_sync(call_later(10, time_source_units_frames, load_data));
+// calls the load function
+load_data();
